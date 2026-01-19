@@ -1,4 +1,5 @@
 // app/page.js
+import Section_1 from "./component/section1";
 import Section2 from "./component/section2";
 import Section3 from "./component/section3";
 
@@ -28,6 +29,7 @@ export default function HomePage() {
           </ul>
         </div>
       </section>
+      <Section_1 />
       <Section2 />
       <Section3 />
 
