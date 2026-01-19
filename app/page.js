@@ -1,4 +1,6 @@
 // app/page.js
+import Section3 from "./component/section3";  
+
 export default function HomePage() {
   return (
     <main className="page">
@@ -25,36 +27,8 @@ export default function HomePage() {
           </ul>
         </div>
       </section>
-
-      <section className="section">
-        <h2>About Cats</h2>
-
-        <article>
-          <h3>1. Origin</h3>
-          <p>
-            Domestic cats are believed to originate from wildcats in the Near East.
-            They began living close to humans because they hunted rodents near human
-            settlements, eventually becoming companion animals.
-          </p>
-        </article>
-
-        <article>
-          <h3>2. Habits</h3>
-          <p>
-            Cats are most active during dusk and night. They enjoy climbing, sleeping
-            in high places, and grooming themselves. Although independent, they still
-            need interaction and care.
-          </p>
-        </article>
-
-        <article>
-          <h3>3. Breeds</h3>
-          <p>
-            There are many cat breeds worldwide, including short-haired and long-haired
-            types. Each breed has different appearances and personalities.
-          </p>
-        </article>
-      </section>
+      <Section3 />
+      
     </main>
   );
 }
