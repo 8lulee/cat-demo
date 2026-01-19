@@ -2,6 +2,7 @@
 import Section_1 from "./component/section1";
 import Section2 from "./component/section2";
 import Section3 from "./component/section3";
+import References from "./component/references";
 
 export default function HomePage() {
   return (
@@ -32,6 +33,7 @@ export default function HomePage() {
       <Section_1 />
       <Section2 />
       <Section3 />
+      <References />
 
     </main>
   );
